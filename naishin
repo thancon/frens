@@ -15,4 +15,3 @@ contract TokenCorrect is Token {
         return balance[_a];
     }
     function transfer(address _to, uint _amt) public override {
-        require(
