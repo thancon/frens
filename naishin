@@ -7,5 +7,4 @@ interface Token {
 }
 
 contract TokenCorrect is Token {
-    mapping (address => uint) balance;
-    constructor(address _a, uint _b) {
+    mapping (address => uint) 
